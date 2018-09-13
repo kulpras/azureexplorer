@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'),
+       url('./../../fonts/fonts/Lato-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+.latoFont {
+  font-family: "Lato"
+}
