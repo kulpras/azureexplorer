@@ -10,21 +10,6 @@ const navs = {
     to: "/home/ServiceBus",
     icon: "fa-star"
   },
-  explore: {
-    title: "Explore Fonts",
-    to: "/home/explore",
-    icon: "fa-star"
-  },
-  installed: {
-    title: "Installed Fonts",
-    to: "/home/installed",
-    icon: "fa-star"
-  },
-  collections: {
-    title: "Collections",
-    to: "/home/collections",
-    icon: "fa-folder"
-  },
   help: {
     title: "Help",
     to: "/home/help",

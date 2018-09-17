@@ -9,7 +9,6 @@ export class ServiceBus extends React.Component {
       <div id="page-content-wrapper">
         <div className="container-fluid">
           <h3>Azure Service Bus Explorer</h3>
-          <p>Something to show here...</p>
           <p><Input type="text" name="connectionString" id="connectionString" placeholder="enter connection string" /></p>
           <Button color="primary" className="btn btn-primary">Connect</Button>
         </div>
