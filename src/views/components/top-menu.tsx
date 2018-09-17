@@ -16,15 +16,15 @@ export class TopMenu extends React.Component {
         <Icon
           onClick={this.toggleSidebar}
           iconName="fa-bars" />
-        &nbsp;Typo
+        &nbsp;Menu
         <NavbarToggler />
         <Collapse isOpen={true} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/home/help">Help</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/kulpras/azureexplorer">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

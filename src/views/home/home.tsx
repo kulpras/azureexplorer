@@ -6,6 +6,8 @@ import { observer } from "mobx-react";
 import { Welcome } from "../welcome/welcome";
 import { Explore } from "../explore/explore";
 import { Installed } from "../installed-fonts/installed";
+import { Help } from "../help/help";
+import { ServiceBus } from "../servicebus/servicebus";
 
 const classNames = require("classnames");
 
@@ -31,6 +33,9 @@ export class Home extends React.Component {
             <Route exact path="/home" component={Welcome} />
             <Route exact path="/home/explore" component={Explore} />
             <Route exact path="/home/installed" component={Installed} />
+            <Route exact path="/home/help" component={Help} />
+            <Route exact path="/home/sample" component={Help} />
+            <Route exact path="/home/ServiceBus" component={ServiceBus} />
           </Switch>
         </div>
       </div>

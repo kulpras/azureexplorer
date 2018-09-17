@@ -5,19 +5,29 @@ import { Link } from "react-router-dom";
 import { Icon } from "..";
 
 const navs = {
+  ServiceBus: {
+    title: "Service Bus",
+    to: "/home/ServiceBus",
+    icon: "fa-star"
+  },
   explore: {
     title: "Explore Fonts",
     to: "/home/explore",
-    icon: "fa-font"
+    icon: "fa-star"
   },
   installed: {
     title: "Installed Fonts",
     to: "/home/installed",
-    icon: "fa-check"
+    icon: "fa-star"
   },
   collections: {
     title: "Collections",
     to: "/home/collections",
+    icon: "fa-folder"
+  },
+  help: {
+    title: "Help",
+    to: "/home/help",
     icon: "fa-folder"
   }
 };
@@ -30,7 +40,7 @@ export class Sidebar extends React.Component {
           {Object.keys(navs).map((key) => {
             const navItem = navs[key];
             return <NavItem key={navItem.to}>
-              <Link to={navItem.to}><Icon iconName={navItem.icon}/>{navItem.title}</Link>
+              <Link to={navItem.to}><Icon iconName={navItem.icon} />{navItem.title}</Link>
             </NavItem>;
           })}
         </ul>
