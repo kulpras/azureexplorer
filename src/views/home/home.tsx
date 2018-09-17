@@ -34,7 +34,6 @@ export class Home extends React.Component {
             <Route exact path="/home/explore" component={Explore} />
             <Route exact path="/home/installed" component={Installed} />
             <Route exact path="/home/help" component={Help} />
-            <Route exact path="/home/sample" component={Help} />
             <Route exact path="/home/ServiceBus" component={ServiceBus} />
           </Switch>
         </div>
