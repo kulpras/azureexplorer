@@ -21,7 +21,7 @@
     "@types/react-router-dom": "^4.3.0",
     "@types/reactstrap": "^6.0.3",
     "concurrently": "^4.0.1",
-    "electron": "^2.0.9",
+    "electron": "^11.5.0",
     "electron-builder": "^20.28.4",
     "typescript": "^3.0.3",
     "wait-on": "^3.0.1"
